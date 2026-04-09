@@ -391,7 +391,7 @@ button { cursor: none; border: none; background: none; font-family: inherit; }
 }
 
 .title-name {
-  font-size: clamp(2rem, 4.2vw, 3.4rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   font-weight: 800;
   color: var(--white);
   letter-spacing: -0.04em;
