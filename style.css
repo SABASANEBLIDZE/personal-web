@@ -153,8 +153,8 @@ button {
   position: absolute;
   inset: 24px 0;
   background: var(--section-tone);
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  border-top: none;
+  border-bottom: none;
   pointer-events: none;
 }
 
