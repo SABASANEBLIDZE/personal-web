@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="pageTitle">Saba Saneblidze | Cinematic Portfolio</title>
+  <meta id="metaDescription" name="description"
+    content="Portfolio of Saba Saneblidze, an IT student and junior developer creating premium, responsive digital experiences." />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" id="ogTitle" content="Saba Saneblidze | Cinematic Portfolio" />
+  <meta property="og:description" id="ogDescription"
+    content="Portfolio of Saba Saneblidze, an IT student and junior developer creating premium, responsive digital experiences." />
+  <meta property="og:locale" id="ogLocale" content="en_US" />
+  <meta id="themeColorMeta" name="theme-color" content="#14100f" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Georgian:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html#home" aria-label="Saba Saneblidze home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-name">Saba Saneblidze</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" type="button" aria-controls="siteNav" aria-expanded="false"
+        data-i18n-aria="nav.menuOpen">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <ul class="nav-links">
+          <li><a href="index.html#home" class="nav-link" data-i18n="nav.home">Home</a></li>
+          <li><a href="index.html#about" class="nav-link" data-i18n="nav.about">About</a></li>
+          <li><a href="index.html#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+          <li><a href="#projects" class="nav-link active" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="index.html#experience" class="nav-link" data-i18n="nav.experience">Experience</a></li>
+          <li><a href="index.html#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <div class="lang-switcher" role="group" aria-label="Language switcher">
+            <button type="button" class="lang-btn is-active" data-lang-switch="en" aria-pressed="true">EN</button>
+            <button type="button" class="lang-btn" data-lang-switch="ka" aria-pressed="false">GE</button>
+          </div>
+          <div class="theme-switcher" role="group" aria-label="Theme switcher">
+            <button type="button" class="theme-btn is-active" data-theme-switch="dark" aria-pressed="true"
+              data-i18n="theme.dark">Dark</button>
+            <button type="button" class="theme-btn" data-theme-switch="light" aria-pressed="false"
+              data-i18n="theme.light">Light</button>
+          </div>
+          <a href="CV.pdf" download class="button button-primary button-small">
+            <span data-i18n="nav.downloadCv">Download CV</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section projects-section section-toned projects-page-section" id="projects">
+      <div class="container">
+        <div class="section-heading projects-intro" data-reveal="up">
+          <p class="section-kicker" data-i18n="projects.kicker">Selected Work</p>
+          <div class="projects-intro-main">
+            <h1 class="section-title" data-i18n="projects.title">Projects presented like a curated portfolio, not a
+              simple list.</h1>
+          </div>
+          <div class="projects-intro-side">
+            <p class="section-intro" data-i18n="projects.intro">
+              A mix of redesigns, personal builds, and presentation-focused web work with attention to layout,
+              responsiveness, and polish.
+            </p>
+          </div>
+        </div>
+
+        <article class="featured-project panel" data-reveal="up">
+          <div class="featured-media" data-parallax="16">
+            <img src="aus.png" alt="Austrian Brewery website preview" data-i18n-alt="projects.featured.alt" />
+          </div>
+          <div class="featured-copy">
+            <p class="project-label" data-i18n="projects.featured.label">Featured Project</p>
+            <h3 data-i18n="projects.featured.title">Austrian Brewery Restaurant Website</h3>
+            <p data-i18n="projects.featured.body">
+              A hospitality-focused landing experience with a stronger premium mood, structured content, and
+              responsive layout presentation.
+            </p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Responsive</li>
+            </ul>
+            <div class="project-actions">
+              <a href="https://sabasaneblidze.github.io/BREWERY/" target="_blank" rel="noreferrer"
+                class="button button-primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <span data-i18n="projects.viewLive">View Live</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-grid projects-archive-grid">
+          <article class="project-card panel" data-reveal="up">
+            <div class="project-media" data-parallax="12">
+              <img src="sal.png" alt="Salome personal website preview" data-i18n-alt="projects.project1.alt" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.clientWork">Client Work</p>
+              <h3 data-i18n="projects.project1.title">Personal Website - Salome G.</h3>
+              <p data-i18n="projects.project1.body">A clean personal website designed to feel approachable, elegant,
+                and easy to navigate.</p>
+              <div class="project-actions">
+                <a href="https://ssalomeg.github.io/" target="_blank" rel="noreferrer" class="text-link">
+                  <span data-i18n="projects.viewLive">View Live</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal="up" style="--delay: 120ms;">
+            <div class="project-media" data-parallax="12">
+              <img src="cs2.jpg" alt="FC Batumi redesign preview" data-i18n-alt="projects.project2.alt" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.redesign">Redesign</p>
+              <h3 data-i18n="projects.project2.title">FC Batumi Website Redesign</h3>
+              <p data-i18n="projects.project2.body">A modernized football club concept with improved visual hierarchy
+                and a stronger responsive structure.</p>
+              <div class="project-actions">
+                <a href="https://sabasaneblidze.github.io/ClubBatumi/" target="_blank" rel="noreferrer"
+                  class="text-link">
+                  <span data-i18n="projects.viewLive">View Live</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal="up" style="--delay: 220ms;">
+            <div class="project-media" data-parallax="12">
+              <img src="animall.png"
+                alt="Animall pet shop preview" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.concept">Concept Build</p>
+              <h3 data-i18n="projects.project3.title">Animall Landing Page</h3>
+              <p data-i18n="projects.project3.body">A playful landing concept focused on branding clarity, engagement,
+                and simple responsive structure.</p>
+              <div class="project-actions">
+                <a href="https://sabasaneblidze.github.io/animall/" target="_blank" rel="noreferrer" class="text-link">
+                  <span data-i18n="projects.viewLive">View Live</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal="up">
+            <div class="project-media" data-parallax="12">
+              <img src="cs2.png" alt="CS2 fan website preview" data-i18n-alt="projects.project4.alt" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.personalBuild">Personal Build</p>
+              <h3 data-i18n="projects.project4.title">CS2 Fan Website</h3>
+              <p data-i18n="projects.project4.body">A themed fan site exploring bold presentation, gaming-focused
+                visuals, and animated front-end detail.</p>
+              <div class="project-actions">
+                <a href="https://sabasaneblidze.github.io/cs2-chemi-site" target="_blank" rel="noreferrer"
+                  class="text-link">
+                  <span data-i18n="projects.viewLive">View Live</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal="up" style="--delay: 120ms;">
+            <div class="project-media" data-parallax="12">
+              <img src="mova.png"
+                alt="Delivery website preview" data-i18n-alt="projects.project4.alt" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.personalBuild">Personal Build</p>
+              <h3 data-i18n="projects.project4.title">Delivery Website</h3>
+              <p data-i18n="projects.project4.body">A fully responsive delivery website with login/sign-up, support
+                chat, checkout system, delivery time tracking, and product filtering. Built with a focus on smooth
+                user experience, clean design, and functionality across all devices.</p>
+              <div class="project-actions">
+                <a href="https://sabasaneblidze.github.io/delivery" target="_blank" rel="noreferrer"
+                  class="text-link">
+                  <span data-i18n="projects.viewLive">View Live</span>
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card panel" data-reveal="up" style="--delay: 120ms;">
+            <div class="project-media" data-parallax="12">
+              <img src="template.png" alt="Website template preview" data-i18n-alt="projects.project5.alt" />
+            </div>
+            <div class="project-copy">
+              <p class="project-label" data-i18n="projects.template">Template</p>
+              <h3 data-i18n="projects.project5.title">Website Template System</h3>
+              <p data-i18n="projects.project5.body">A reusable starter structure prepared for rapid setup, clean
+                sections, and project-ready customization.</p>
+              <div class="project-actions">
+                <span class="text-link is-disabled">
+                  <i class="fa-solid fa-clock"></i>
+                  <span data-i18n="projects.previewSoon">Preview Soon</span>
+                </span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="projects-page-actions" data-reveal="up">
+          <a href="index.html#home" class="button button-secondary">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span data-i18n="nav.home">Home</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">Saba Saneblidze</p>
+        <p class="footer-copy" data-i18n="footer.copy">Cinematic front-end portfolio built for clarity, polish, and
+          steady growth.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#projects" data-i18n="footer.projects">Projects</a>
+        <a href="index.html#services" data-i18n="footer.services">Services</a>
+        <a href="index.html#contact" data-i18n="footer.contact">Contact</a>
+        <a href="CV.pdf" download data-i18n="footer.downloadCv">Download CV</a>
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/sabasaneblidze" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:saba.saneblidze.it@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="#projects" id="backToTop" aria-label="Back to top">
+          <i class="fa-solid fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
