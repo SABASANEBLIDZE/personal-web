@@ -381,6 +381,7 @@ const translations = {
       project4: { title: 'CS2 Fan', body: 'cs2 ფან ვებსაიტი' },
       project5: { title: 'Delivery Website', body: 'მიტანის პლატფორმის კონცეფცია account flow-ით, live support-ით, checkout-ით, tracking-ით და filtering-ით, შექმნილი სწრაფი, სტრუქტურირებული და ყველა ეკრანზე მარტივად გამოსაყენებელი გამოცდილებისთვის.', alt: 'მიტანის ვებსაიტის პრევიუ' },
       project6: { title: 'ვებსაიტის შაბლონის სისტემა', body: 'მრავალჯერადი გამოყენების starter სისტემა, შექმნილი უფრო სწრაფი launch-ებისთვის, თანმიმდევრული სექციებისთვის და სუფთა front-end კონფიგურაციისთვის.', alt: 'ვებსაიტის შაბლონის პრევიუ' },
+    },
     process: {
       kicker: 'პროცესი',
       title: 'მკაფიო build პროცესი მიმართულებიდან launch-მდე.',
